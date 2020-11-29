@@ -24,9 +24,9 @@
                 </div>
         
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Enter your address</label>
-                    <textarea  class="form-control @error('address') is-invalid @enderror" id="exampleFormControlTextarea1" rows="3" name="address"></textarea>
-                    @error('address')
+                    <label for="exampleFormControlTextarea1">Enter your message</label>
+                    <textarea  class="form-control @error('message') is-invalid @enderror" id="exampleFormControlTextarea1" rows="3" name="address"></textarea>
+                    @error('message')
                         <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
                 </div>

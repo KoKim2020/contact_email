@@ -38,7 +38,7 @@ class TestController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'address' => 'required',
+            'message' => 'required',
             'email' => 'required'
         ]);
 
